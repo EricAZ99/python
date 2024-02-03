@@ -45,6 +45,15 @@ Modularité:                     Import <nom_module>
                                 
                                 
 Gestion des exceptions:               try / except (+ else, finally)
+
+Type d'exceptions :             NameError
+                                ValueError
+                                TypeError
+                                ZeroDivisionError
+                                OSError
+                                AssertionError
+                                
+
 """
 
 
