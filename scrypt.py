@@ -99,6 +99,12 @@ nom_variable() // Ça affiche "Cette fonction ne peut pas être appelé car elle
 taxe = lambda prix: prix + (prix * 20/100)
 print(taxe(10)) // Ça affiche 12.0
 
+Exemple: 
+
+calculate = lambda a, b: a + b
+
+print(calculate(2,5)) // Ça affiche 5
+
 NB: lambda remplace le mot clé def
 """
 
