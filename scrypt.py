@@ -40,6 +40,8 @@ Mots-clés:                      break (casser la boucle) / continue (revenir au
 
 
 Modularité:                     Import <nom_module>
+                                From <nom_module> import *
+                                From <nom_module> import <nom_fonction>
 """
 
 
