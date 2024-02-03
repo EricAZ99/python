@@ -42,7 +42,12 @@ Mots-clés:                      break (casser la boucle) / continue (revenir au
 Modularité:                     Import <nom_module>
                                 From <nom_module> import <nom_fonction>
                                 From <nom_module> import *
+                                
+                                
+Gestion d'erreur:               try/ except
 """
+
+
 
 
 
@@ -302,3 +307,45 @@ NB: lambda remplace le mot clé def
 # print(taxe(10))
 
 
+"""
+Un module est fichier dans lequel certains fonction spécifiques ont été développées et sont prêtes à être importées pour l'utilisation
+    
+Pour utiliser une fonction d'un module, il faut d'abord importer le fichier en question
+    
+Exemple: 
+import math 
+
+resultat = math.sqrt(100)
+print(int(resultat))
+
+
+import os
+
+os.system("cls") // Cela agira sur le terminal du système
+"""
+
+# import player
+
+# import math 
+
+# r = player.parler("Serge", "Bonjour")
+
+
+# try:
+#     print("Quel âge as-tu ?")
+#     age = int(input("> "))
+# except:
+#     print("L'âge entré n'est pas correct")
+# else:
+#     print("Vous avez {} ans".format(age))
+# finally:
+#     print("FIN DU PROGRAMME")
+
+
+print("Quel âge as-tu ?")
+age = int(input("> "))
+
+if type(age) != int: 
+    print("L'âge entré est incorrect")
+else: 
+    print("Vous avez {} ans".format(age))
