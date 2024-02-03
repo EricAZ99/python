@@ -300,3 +300,5 @@ NB: lambda remplace le mot clé def
 # taxe = lambda prix: prix + (prix * 20/100)
 
 # print(taxe(10))
+
+
