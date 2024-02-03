@@ -39,7 +39,7 @@ Boucles:                        while / for
 Mots-clés:                      break (casser la boucle) / continue (revenir au début de la boucle)
 
 
-Modularité:                     
+Modularité:                     Import <nom_module>
 """
 
 
