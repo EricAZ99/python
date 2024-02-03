@@ -88,9 +88,11 @@ lambda: print("Cette fonction ne peut pas être appelé car elle n'a pas de nom"
 
 Pour l'utiliser, il faut l'assigner à une variable.
 Exemple:
+
 nom_variable = lambda: print("Cette fonction ne peut pas être appelé car elle n'a pas de nom")
 
 nom_variable()
+
 """
 
 
