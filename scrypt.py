@@ -91,8 +91,15 @@ Exemple:
 
 nom_variable = lambda: print("Cette fonction ne peut pas être appelé car elle n'a pas de nom")
 
-nom_variable()
+nom_variable() // Ça affiche "Cette fonction ne peut pas être appelé car elle n'a pas de nom"
 
+
+# Fonction lambda avec paramètre
+
+taxe = lambda prix: prix + (prix * 20/100)
+print(taxe(10)) // Ça affiche 12.0
+
+NB: lambda remplace le mot clé def
 """
 
 
@@ -249,25 +256,25 @@ nom_variable()
     
 # dire_bonjour()
 
-def requete():
-    print("1. Faire une addition")
-    print("2. Faire une soustration")
-    print("3. Faire une multiplication")
-    print("4. Faire une division")
+# def requete():
+#     print("1. Faire une addition")
+#     print("2. Faire une soustration")
+#     print("3. Faire une multiplication")
+#     print("4. Faire une division")
 
-# requete()
-def calcul(nombre1, signe, nombre2):
-    if signe == "/":
-        return int(nombre1) / int(nombre2) 
-    elif signe == "-":
-        return int(nombre1) - int(nombre2) 
-    elif signe == "+":
-        return int(nombre1) + int(nombre2) 
-    else:
-        return int(nombre1) * int(nombre2) 
+# # requete()
+# def calcul(nombre1, signe, nombre2):
+#     if signe == "/":
+#         return int(nombre1) / int(nombre2) 
+#     elif signe == "-":
+#         return int(nombre1) - int(nombre2) 
+#     elif signe == "+":
+#         return int(nombre1) + int(nombre2) 
+#     else:
+#         return int(nombre1) * int(nombre2) 
         
     
-print(int(calcul(12, "/" , 2)))
+# print(int(calcul(12, "/" , 2)))
 # jeu_lance = True
 
 # while jeu_lance:
@@ -279,3 +286,6 @@ print(int(calcul(12, "/" , 2)))
 #         print("Entrez le chiffre 2:")
 #         nombre2 = int(input("> "))
         
+# taxe = lambda prix: prix + (prix * 20/100)
+
+# print(taxe(10))
