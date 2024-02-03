@@ -239,5 +239,6 @@ def requete():
     variable = int(input("> "))
     
     
-jeu
+jeu_lance = True
+
     
