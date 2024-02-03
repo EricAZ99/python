@@ -39,7 +39,7 @@ Boucles:                        while / for
 Mots-clés:                      break (casser la boucle) / continue (revenir au début de la boucle)
 
 """
-
+"""
 # Création d'une fonction
 # Les fonctions ont été mises en place afin d'éviter la répétition des méthodes au cas où le besoin se fait sentir.
 # Une fonction est préfixée d'un mot clé def suivi du mot de la fonction. 
@@ -75,7 +75,7 @@ Mots-clés:                      break (casser la boucle) / continue (revenir au
         
 # show_inventory("param1","param2","param3","param4","param5","param6","param7","param8","param9")
 
-
+"""
 
 
 # nom = "AZANKPO"
