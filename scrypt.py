@@ -351,10 +351,23 @@ os.system("cls") // Cela agira sur le terminal du système
 #     print("FIN DU PROGRAMME")
 
 
-print("Quel âge as-tu ?")
-age = int(input("> "))
+# print("Quel âge as-tu ?")
+# age = int(input("> "))
 
-if type(age) != int: 
-    print("L'âge entré est incorrect")
+# if type(age) != int: 
+#     print("L'âge entré est incorrect")
+# else: 
+#     print("Vous avez {} ans".format(age))
+    
+    
+"""
+Il est possible de créer les exceptions soi-même en utilisant le mot clé raise
+
+Exemple:
+age = int(input("> "))
+if age < 25:
+    raise ValueError("Age must be above 25")
 else: 
-    print("Vous avez {} ans".format(age))
+    print(age)
+
+"""
