@@ -231,9 +231,13 @@ Mots-clés:                      break (casser la boucle) / continue (revenir au
     
 # dire_bonjour()
 
-
-def show_inventory(*args): # L'étoile permet de notifier que le paramètre à renseigner peut être plusieurs
-    for i in args:
-        print("\n", i)
-        
-show_inventory("erik","az","am","om","dire_bonjour","dore")
+def requete():
+    print("1. Faire une addition")
+    print("2. Faire une soustration")
+    print("3. Faire une multiplication")
+    print("4. Faire une division")
+    variable = int(input("> "))
+    
+    
+jeu
+    
