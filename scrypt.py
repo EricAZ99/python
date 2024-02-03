@@ -44,7 +44,7 @@ Modularité:                     Import <nom_module>
                                 From <nom_module> import *
                                 
                                 
-Gestion d'erreur:               try/ except
+Gestion des exceptions:               try / except (+ else, finally)
 """
 
 
