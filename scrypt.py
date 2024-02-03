@@ -236,9 +236,28 @@ def requete():
     print("2. Faire une soustration")
     print("3. Faire une multiplication")
     print("4. Faire une division")
-    variable = int(input("> "))
-    
-    
-jeu_lance = True
 
+# requete()
+def calcul(nombre1, signe, nombre2):
+    if signe == "/":
+        return int(nombre1) / int(nombre2) 
+    elif signe == "-":
+        return int(nombre1) - int(nombre2) 
+    elif signe == "+":
+        return int(nombre1) + int(nombre2) 
+    else:
+        return int(nombre1) * int(nombre2) 
+        
     
+print(int(calcul(12, "/" , 2)))
+# jeu_lance = True
+
+# while jeu_lance:
+#     requete()
+#     variable = int(input("> "))
+#     if variable == 1:
+#         print("Entrez le chiffre 1:")
+#         nombre1 = int(input("> "))
+#         print("Entrez le chiffre 2:")
+#         nombre2 = int(input("> "))
+        
