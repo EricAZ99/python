@@ -38,6 +38,8 @@ Boucles:                        while / for
 
 Mots-clés:                      break (casser la boucle) / continue (revenir au début de la boucle)
 
+
+Modularité:                     
 """
 
 
@@ -78,6 +80,7 @@ Mots-clés:                      break (casser la boucle) / continue (revenir au
 #         print("\n", i)
         
 # show_inventory("param1","param2","param3","param4","param5","param6","param7","param8","param9")
+
 
 
 
