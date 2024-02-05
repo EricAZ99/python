@@ -400,21 +400,24 @@ else:
 
 import Player
 
+Player.Player.method_static()
 
-print("Bienvenue sur la page...")
-print("Quel est votre prénom ?")
-prenom = input("> ")
+# print("Bienvenue sur la page...")
+# print("Quel est votre prénom ?")
+# prenom = input("> ")
 
-print("Votre message svp...")
-message = input("> ")
+# print("Votre message svp...")
+# message = input("> ")
 
-print("Quel est votre âge ?")
-age = input("> ")
-age = int(age)
-try:
-    assert type(age) == int and age >= 18
-except AssertionError:
-    print("L'âge que vous entrez n'est pas correct")
-else:
-    player = Player.Player(prenom, message)
-    player.jouer()
+# print("Quel est votre âge ?")
+# age = input("> ")
+# age = int(age)
+# try:
+#     assert type(age) == int and age >= 18
+# except AssertionError:
+#     print("L'âge que vous entrez n'est pas correct")
+# else:
+#     player = Player.Player(prenom, message)
+#     player.jouer()
+
+print(Player.Player.new_pro('Votre message svp'))
