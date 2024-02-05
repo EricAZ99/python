@@ -395,5 +395,5 @@ humain = Joueur.Player("AZANKPO","Erik")
 # humain.parler("Erik","Je viens de bouger")
 
 humain.ecole = "Pigier"
-
-print(humain.ecole)
+Joueur.Player.definition("Erikoooooooooooooooo")
+# print(humain.ecole)

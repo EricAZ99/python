@@ -19,4 +19,6 @@ class Player:
     
     eleve = classmethod(changement_d_ecole)
     
-    
+    @staticmethod
+    def definition(message):
+        print("{}".format(message))
