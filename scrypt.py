@@ -400,7 +400,7 @@ else:
 
 import Player
 
-Player.Player.method_static()
+# Player.Player.method_static()
 
 # print("Bienvenue sur la page...")
 # print("Quel est votre prénom ?")
@@ -420,4 +420,5 @@ Player.Player.method_static()
 #     player = Player.Player(prenom, message)
 #     player.jouer()
 
-print(Player.Player.new_pro('Votre message svp'))
+
+maClasse = Player.Player

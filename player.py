@@ -25,11 +25,12 @@
 
 
 class Player:
-    propriete_de_la_classe = 0
+    propriete_de_la_classe = "Je suis la propriété de la classe"
     
     def __init__(self, nom, prenom):
         self.nom = nom
         self.prenom = prenom
+        print(self.nom, Player.propriete_de_la_classe)
         
     def jouer(self):
         print(self.nom, self.prenom) 
@@ -37,8 +38,4 @@ class Player:
     def method_static():
         print("Je suis une méthode statique")
         
-    def changement_de_propriete(cls, nouvelle_propriete):
-        Player.propriete_de_la_classe = nouvelle_propriete
-        
-    new_pro = classmethod(changement_de_propriete)
-
+    
