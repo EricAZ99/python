@@ -417,3 +417,4 @@ except AssertionError:
     print("L'âge que vous entrez n'est pas correct")
 else:
     player = Player.Player(prenom, message)
+    player.jouer()

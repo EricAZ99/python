@@ -28,4 +28,6 @@ class Player:
     def __init__(self, nom, prenom):
         self.nom = nom
         self.prenom = prenom
-        print("{} a dit : '{}' ".format(self.nom, self.prenom))
+        
+    def jouer(self):
+        print(self.nom, self.prenom) 
