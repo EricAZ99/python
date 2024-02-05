@@ -371,3 +371,21 @@ else:
     print(age)
 
 """
+
+# print("Quel âge as-tu ?")
+
+# age = input("> ")
+
+# try:
+#     age = int(age)
+#     assert age > 17
+# except:
+#     print("Une erreur est survenue lors de l'opération")
+# else:
+#     print("Vous avez {} ans".format(age))
+
+import Player as Joueur
+
+humain = Joueur.Player("AZANKPO","Erik")
+
+# print(humain.nom)
