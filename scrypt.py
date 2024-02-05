@@ -421,4 +421,9 @@ import Player
 #     player.jouer()
 
 
-maClasse = Player.Player
+maClasse = Player.Player("erik", "erik")
+# print(maClasse.new_pro)
+
+maClasse.new_pro = "Je suis la nouvelle propriété"
+
+maClasse.method_static()

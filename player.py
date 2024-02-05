@@ -30,12 +30,16 @@ class Player:
     def __init__(self, nom, prenom):
         self.nom = nom
         self.prenom = prenom
-        print(self.nom, Player.propriete_de_la_classe)
+        print(Player.propriete_de_la_classe)
         
     def jouer(self):
         print(self.nom, self.prenom) 
         
     def method_static():
         print("Je suis une méthode statique")
-        
     
+    method_static = staticmethod(method_static)
+    def changement_de_propriete(cls, nouvelle_propriete):
+        Player.propriete_de_la_classe = nouvelle_propriete
+        
+    new_pro = classmethod(changement_de_propriete)
