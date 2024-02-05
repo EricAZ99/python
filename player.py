@@ -8,5 +8,5 @@ class Player:
         # print("Je suis {} {}, j'ai {} ans et ma taille est {}".format(nom, prenom, age, taille))
     
     # print("Je suis dans la classe Joueur") 
-    def parler(self, message):
-        print("{} a dit : {}".format(self.nom, message))
+    def parler(self, nom, message):
+        print("{} a dit : {}".format(nom, message))

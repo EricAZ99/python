@@ -392,5 +392,5 @@ import Player as Joueur
 humain = Joueur.Player("AZANKPO","Erik")
 
 humain.nom = "ADEYEMI"
-humain.parler("Je viens de bouger")
+humain.parler("Erik","Je viens de bouger")
 # print(humain.nom)
