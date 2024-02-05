@@ -22,3 +22,10 @@
 #     @staticmethod
 #     def definition(message):
 #         print("{}".format(message))
+
+
+class Player:
+    def __init__(self, nom, prenom):
+        self.nom = nom
+        self.prenom = prenom
+        print("{} a dit : '{}' ".format(self.nom, self.prenom))
