@@ -53,6 +53,9 @@ Type d'exceptions :             NameError -> Erreur de variable
                                 OSError -> Erreur de système
                                 AssertionError ->
                                 
+Méthode :                       Fonction sur une instance (objet)
+Méthode de classe :             Fonction sur une classe
+Méthode statique :              Fonction indépendante mais "liée" à une classe
 
 """
 
