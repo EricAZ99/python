@@ -1,5 +1,7 @@
 class Player:
-    Joueur = "Sadio Mané"
+    
+    ecole = "Nokoué"
+    
     def __init__(self, nom = "Dove", prenom = "ddd", age = 88, taille = ''):
         self.nom = nom
         self.prenom = prenom
@@ -12,8 +14,9 @@ class Player:
     def parler(self, nom, message):
         print("{} a dit : {}".format(nom, message))
         
-    def changer_planete(cls, nouvelle_planete):
-        Player.Joueur = nouvelle_planete
-        
-    new_world = classmethod(changer_planete)
+    def changement_d_ecole(cls, nouvelle_ecole):
+        Player.ecole = nouvelle_ecole
+    
+    eleve = classmethod(changement_d_ecole)
+    
     
