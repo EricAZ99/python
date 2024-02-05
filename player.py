@@ -7,4 +7,4 @@ class Player:
         
         print("Je suis {} {}, j'ai {} ans et ma taille est {}".format(nom, prenom, age, taille))
     
-    # print("Je suis dans la classe Joueur")
+    # print("Je suis dans la classe Joueur") 

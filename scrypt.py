@@ -388,4 +388,5 @@ import Player as Joueur
 
 humain = Joueur.Player("AZANKPO","Erik")
 
-# print(humain.nom)
+humain.nom = "ADEYEMI"
+print(humain.nom)
