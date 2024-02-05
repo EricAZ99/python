@@ -393,4 +393,6 @@ humain = Joueur.Player("AZANKPO","Erik")
 
 humain.nom = "ADEYEMI"
 humain.parler("Erik","Je viens de bouger")
-# print(humain.nom)
+
+humain.new_world("Ronaldo")
+print(humain.Joueur)
