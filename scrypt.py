@@ -401,12 +401,12 @@ else:
 import Player
 
 
-# print("Bienvenue sur la page...")
-# print("Quel est votre prénom ?")
-# prenom = input("> ")
+print("Bienvenue sur la page...")
+print("Quel est votre prénom ?")
+prenom = input("> ")
 
-# print("Votre message svp...")
-# message = input("> ")
+print("Votre message svp...")
+message = input("> ")
 
 print("Quel est votre âge ?")
 age = input("> ")
@@ -416,5 +416,5 @@ try:
 except AssertionError:
     print("L'âge que vous entrez n'est pas correct")
 else:
-    player = Player.Player("prenom", "message")
+    player = Player.Player(prenom, message)
  
