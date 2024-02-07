@@ -63,6 +63,9 @@ class Player:
     
     def _setAge(self, age):
         self._age = age
+        
+    def _delAge(self):
+        del self._age
     
-    newAge = property(_getAge, _setAge)
+    newAge = property(_getAge, _setAge, _delAge)
     
