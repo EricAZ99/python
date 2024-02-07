@@ -431,5 +431,5 @@ print(play.variable_de_la_propriete)
 play.nom = "Joy"
 
 print(play.newAge)
-play.newAge = 10
+del play.newAge
 print(play.newAge)
