@@ -398,7 +398,6 @@ else:
 # Joueur.Player.definition("Erikoooooooooooooooo")
 # print(humain.ecole)
 
-import Player
 
 # Player.Player.method_static()
 
@@ -421,9 +420,16 @@ import Player
 #     player.jouer()
 
 
-maClasse = Player.Player("erik", "erik")
-# print(maClasse.new_pro)
+from Player import Player 
 
-maClasse.new_pro = "Je suis la nouvelle propriété"
+play = Player("erik","azankpo", 20)
 
-maClasse.method_static()
+play.variable_de_la_propriete = "Nouvelle valeur assignée"
+
+print(play.variable_de_la_propriete)
+
+play.nom = "Joy"
+
+print(play.newAge)
+play.newAge = 10
+print(play.newAge)

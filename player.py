@@ -24,22 +24,45 @@
 #         print("{}".format(message))
 
 
-class Player:
-    propriete_de_la_classe = "Je suis la propriété de la classe"
+# class Player:
+#     propriete_de_la_classe = "Je suis la propriété de la classe"
     
-    def __init__(self, nom, prenom):
+#     def __init__(self, nom, prenom):
+#         self.nom = nom
+#         self.prenom = prenom
+#         print(Player.propriete_de_la_classe)
+        
+#     def jouer(self):
+#         print(self.nom, self.prenom) 
+        
+#     def method_static():
+#         print("Je suis une méthode statique")
+    
+#     method_static = staticmethod(method_static)
+#     def changement_de_propriete(cls, nouvelle_propriete):
+#         Player.propriete_de_la_classe = nouvelle_propriete
+        
+#     new_pro = classmethod(changement_de_propriete)
+
+class Player:
+    
+    variable_de_la_propriete = "Valeur par défaut"
+    def __init__(self, nom, prenom,age):
         self.nom = nom
         self.prenom = prenom
-        print(Player.propriete_de_la_classe)
+        self._age = age
+        # print(Player.variable_de_la_propriete)
         
-    def jouer(self):
-        print(self.nom, self.prenom) 
+    def methode_de_nouvelle_valeur(cls, nouvelle_valeur):
+        Player.variable_de_la_propriete = nouvelle_valeur
         
-    def method_static():
-        print("Je suis une méthode statique")
+    new = classmethod(methode_de_nouvelle_valeur)
     
-    method_static = staticmethod(method_static)
-    def changement_de_propriete(cls, nouvelle_propriete):
-        Player.propriete_de_la_classe = nouvelle_propriete
-        
-    new_pro = classmethod(changement_de_propriete)
+    def _getAge(self):
+        return self._age
+    
+    def _setAge(self, age):
+        self._age = age
+    
+    newAge = property(_getAge, _setAge)
+    
