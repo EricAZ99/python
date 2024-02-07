@@ -422,14 +422,30 @@ else:
 
 from Player import Player 
 
-play = Player("erik","azankpo", 20)
+player1 = Player("erik","azankpo", 20)
+player2 = Player("armel", "dove",10)
 
-play.variable_de_la_propriete = "Nouvelle valeur assignée"
+try:
+    if player1._age > player2._age:
+        print("{} est plus âgé apparemment".format(player1.nom))
+    elif player1._age == player2._age:
+        print("Vous avez les mêmes âges")
+    else:
+        print("{} est plus âgé apparemment".format(player2.nom))
+finally:
+    if player1._age == player2._age:
+        print("En tout cas respectez-vous les frères")
+    else :
+        print("{} et {} respectez-vous les frères".format(player1.nom,player2.nom))
+    
+    
+    
+# player1.variable_de_la_propriete = "Nouvelle valeur assignée"
 
-print(play.variable_de_la_propriete)
+# print(player1.variable_de_la_propriete)
 
-play.nom = "Joy"
+# player1.nom = "Joy"
 
-print(play.newAge)
-del play.newAge
-print(play.newAge)
+# print(player1.newAge)
+# del player1.newAge
+# print(player1.newAge)
